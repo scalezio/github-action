@@ -11,4 +11,5 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
 RUN npm i -g serverless@1.49.0
+RUN npm i -g aws-cdk@1.9.0
 ENTRYPOINT ["serverless"]
